@@ -15,8 +15,7 @@ public class Main {
                 num[y]=Integer.parseInt(in.next());
                 sum+=num[y];
             }
-            int t=26;
-            char c=(char)(sum%t+97);
+            char c=(char)(sum%26+97);
             System.out.println(c);
         }
         in.close();
