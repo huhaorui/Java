@@ -1,5 +1,5 @@
-class 华山派 {
-    private String 姓名;
+public class 华山派 {
+    String 姓名;
     private String 性别;
     private int 年龄;
     private String 辈分;
